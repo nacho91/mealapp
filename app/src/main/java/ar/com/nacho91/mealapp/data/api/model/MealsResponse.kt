@@ -5,6 +5,7 @@ data class MealsResponse(val meals: List<MealResponse>)
 data class MealResponse(
     val id: String,
     val name: String,
+    val category: String,
     val instructions: String,
     val strIngredient1: String,
     val strIngredient2: String,

@@ -9,7 +9,4 @@ interface MealApi {
 
     @GET("search.php")
     fun searchByName(@Query("s") query: String): Single<MealsResponse>
-
-    @GET("categories.php")
-    fun categories()
 }
